@@ -1,7 +1,7 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include "BSTMap.h"
 #include "BSTPrinter.h"
-#include <doctest.h>
+#include "doctest.h"
 #include <sstream>
 #include <string>
 
