@@ -29,10 +29,11 @@ If you haven't done so already, please set up programming environment our our ow
 
 ## Requirements:
 
-Please implement the following member functions in the **AList.h**. 
+Please implement the following member functions in the **BSTMap.h**. 
 
-1.  Value get(const Key &sk) const;
-2.  void remove(const Key &rk);
+1.  Implement **get** member function that performs a look up with a key, and it shall return the value.
+2.  Implement **remove** member function that removes the node with the given key. You can assume the key exists in the BST.
+3.  Test your functions by adding more testcases in  **main.cpp**.
    
 ## Hints
 
@@ -41,8 +42,9 @@ Follow the example to write some more testcases as needed.
 
 ## Submission 
 
-Submit your ** ** file at the following link by TBA , Tuesday, midnight (11:59pm).
+Submit your **BSTMap.h** file at the following link by TBA , Tuesday, midnight (11:59pm).
 
+Submission Link TBA 
 
 The autograder compiles and tests your programs using 
 some testcases that are different from those in **main.cpp**. If your program fails some testcases, go back to review your code, and test your member functions
