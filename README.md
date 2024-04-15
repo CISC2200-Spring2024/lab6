@@ -34,7 +34,11 @@ Please implement the following member functions in the **BSTMap.h**.
 1.  Implement **get** member function that performs a look up with a key, and it shall return the value.
 2.  Implement **remove** member function that removes the node with the given key. You can assume the key exists in the BST.
 3.  Test your functions by adding more testcases in  **main.cpp**.
-   
+4.  You can work on the following (optional) practice problems to gain more experience in thinking recursively on BST:
+    -- implement **size** member function to return the total number of nodes in the BST.
+    -- implement a constructor that takes in an array of Keys and an array of Values, and build a optimal BST (with a height as small as possible).
+    -- implement a **print** member function to display the nodes in the BST in the ascending order.    
+
 ## Hints
 
 The **main.cpp** provided in this repository uses **doctests.h** framework to write testcases for the **remove** and **get** member functions. 
